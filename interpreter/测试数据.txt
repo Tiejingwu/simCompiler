@@ -1,0 +1,28 @@
+ROT IS PI/6£»
+
+FOR T FROM 0 TO 2*PI STEP PI/50 DRAW(COS(T),SIN(T));
+
+-16+5**3/cos(T)
+
+rot is -16+5**4/cos(T);
+
+ORIGIN IS (150,120);
+SCALE IS (100,100);
+ROT IS PI/2;
+FOR T FROM 0 TO 2*PI STEP PI/500 DRAW(COS(T),SIN(T));
+
+
+scale is (20,20);
+origin is (200,200);
+rot is 0;
+for T from 0 to 2*pi+pi/500 step pi/500 draw (t,sin(t));
+for T from 0 to 2*pi+pi/500 step pi/500 draw (t,-sin(t));
+rot is pi/2;
+for T from 0 to 2*pi+pi/500 step pi/500 draw (t,sin(t));
+for T from 0 to 2*pi+pi/500 step pi/500 draw (t,-sin(t));
+rot is pi;
+for T from 0 to 2*pi+pi/500 step pi/500 draw (t,sin(t));
+for T from 0 to 2*pi+pi/500 step pi/500 draw (t,-sin(t));
+rot is 1.5*pi;
+for T from 0 to 2*pi+pi/500 step pi/500 draw (t,sin(t));
+for T from 0 to 2*pi+pi/500 step pi/500 draw (t,-sin(t));
